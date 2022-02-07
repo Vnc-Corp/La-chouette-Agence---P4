@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -286,17 +286,17 @@ a:hover {
 /* modification texte */
 .size_text
 {
-    font-size: clamp(1vw, 5vw, 25px); /* taille responsive des articles remplaçant les image-textes */
+    font-size: clamp(15px, 6.5vw, 25px); /* taille responsive des articles remplaçant les image-textes */
 }
 
-.size_text2
+.size_text2 
 {
-    font-size: clamp(1vw, 4.8vw, 30px); /* remplace title 2 et responsive taille*/
+    font-size: clamp(15px, 7vw, 30px); /* remplace title 2 et responsive taille*/
 }
 
 p q
 {
-    font-size: clamp(1em, 3.4vw, 20px); /*remplace citation et responsive taille */
+    font-size: clamp(1em, 5vw, 20px); /*remplace citation et responsive taille */
     font-weight: bold;
     font-style: italic;
 }
@@ -305,7 +305,26 @@ p q
 .height-logo
 {
     height: 40px;
-    width: auto;
+    width: 100%;
+}
+
+/* taille des texte info dans footer */
+.size-minim-text 
+{
+    line-height: 4;
+    font-size: 12px;
+}
+
+/* taille texte sous les 3 icônes*/
+.size-text-description
+{
+    font-size: 15px;
+}
+
+/* responsive images*/
+.new-responsive-seo
+{
+    width: 100%;
 }
 
 /* Modification alignement bloc formulaire */
@@ -722,7 +741,7 @@ a {
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 12px; /*-------------------------------------------------------------------------*/
 }
 
 .tight-width-whitespace {
@@ -855,19 +874,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
