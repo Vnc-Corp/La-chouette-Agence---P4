@@ -284,19 +284,22 @@ a:hover {
 }
 
 /* modification texte */
+/* taille responsive des articles remplaçant les image-textes */
 .size_text
 {
-    font-size: clamp(15px, 6.5vw, 25px); /* taille responsive des articles remplaçant les image-textes */
+    font-size: clamp(15px, 6.5vw, 25px); 
 }
 
+/* remplace title 2 et responsive taille*/
 .size_text2 
 {
-    font-size: clamp(15px, 7vw, 30px); /* remplace title 2 et responsive taille*/
+    font-size: clamp(15px, 7vw, 30px); 
 }
 
+/*remplace citation et responsive taille */
 p q
 {
-    font-size: clamp(1em, 5vw, 20px); /*remplace citation et responsive taille */
+    font-size: clamp(1em, 5vw, 20px); 
     font-weight: bold;
     font-style: italic;
 }
@@ -347,6 +350,7 @@ p q
     align-items: center;
 }
 /*----------------------*/
+
 #bloc-1-hero h1 {
     font-size: 32px;
 }
@@ -741,7 +745,7 @@ a {
 }
 
 p {
-    font-size: 12px; /*-------------------------------------------------------------------------*/
+    font-size: 12px; 
 }
 
 .tight-width-whitespace {
