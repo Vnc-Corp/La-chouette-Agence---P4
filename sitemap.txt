@@ -6,7 +6,7 @@
   </url>
 
   <url>
-    <loc>https://vnc-corp.github.io/La-chouette-Agence---P4/page2.html</loc>
+    <loc>https://vnc-corp.github.io/La-chouette-Agence---P4/contact.html</loc>
     <lastmod>2018-06-04</lastmod>
   </url>
 </urlset>
